@@ -15,7 +15,7 @@ public class Runner {
         config.LoadConfig();
 
         Playwright playwright = Playwright.create();
-        Browser browser = playwright.webkit().launch(
+        Browser browser = playwright.chromium().launch(
                 new BrowserType.LaunchOptions().setHeadless(false)
         );
         page = browser.newPage();

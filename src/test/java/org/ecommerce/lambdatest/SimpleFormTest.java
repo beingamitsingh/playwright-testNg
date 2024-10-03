@@ -20,10 +20,10 @@ public class SimpleFormTest extends Runner {
     @DataProvider(name = "messages")
     public Object[][] messageInputs() {
         return new Object[][] {
-                { "Hey Tester" },
-                { "Do you see another message" },
-                { "Nice to meet you" },
-                { "Lets continue playwright practice" }
+                { "Hey Tester." },
+                { "Do you see another message?" },
+                { "Nice to meet you!" },
+                { "Lets continue playwright practice." }
         };
     }
 
