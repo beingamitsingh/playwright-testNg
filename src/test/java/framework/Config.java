@@ -10,7 +10,7 @@ import java.util.Set;
 public class Config {
     private static HashMap<String, String> data = new HashMap<>();
 
-    public void LoadConfig() {
+    public void loadConfig() {
         Properties prop = new Properties();
         String sConfigFilePath = "src//test//resources//application.properties";
 

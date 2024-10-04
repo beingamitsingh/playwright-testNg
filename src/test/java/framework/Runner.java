@@ -12,7 +12,7 @@ public class Runner {
     @BeforeSuite(alwaysRun = true)
     public void beforeSuite() {
         Config config = new Config();
-        config.LoadConfig();
+        config.loadConfig();
 
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch(
